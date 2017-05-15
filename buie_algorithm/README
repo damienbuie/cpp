@@ -1,0 +1,23 @@
+/*
+ * The code simply generates the spatial, spectral and position of the sun 
+ * for any location. The spectral simulation is perhaps outdated for the 
+ * normalisation of CPV data and should be replaced by Chris Gueymard's 
+ * Smarts2 (I would have included it but I am unsure of the licence). 
+ *
+ * The code is currently being used by Emcore, CSIRO, AUSRA Energy and
+ * Spectrolab to my knowledge. It can be used to get sub-millimeter 
+ * resolution in the imaging place (both spectrally and spatially) for 
+ * concentrations in excess of 1000X under dispersive media. 
+ * 
+ * Please read the section on the warranty
+ *
+ * To compile 
+ * g++ -Iinclude test.cpp -o test 
+ * ./test
+ * 
+ * that will give an example of the core elements and come april it will
+ * documented for a presentation I am giving in Italy.
+ * 
+ * Regards
+ * Damien
+ */
