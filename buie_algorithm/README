@@ -12,7 +12,7 @@
  * Please read the section on the warranty
  *
  * To compile 
- * g++ -Iinclude test.cpp -o test 
+ * g++ -Ilib test.cpp -o test 
  * ./test
  * 
  * that will give an example of the core elements and come april it will
